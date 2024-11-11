@@ -1,0 +1,21 @@
+form{
+ 
+    text-align: start;
+  }
+  .submit{
+    color:white;
+    background-color: rgb(238, 56, 56);
+    margin-left: 5px;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .include{
+    border-bottom:2px solid white;
+    background-color: rgb(160, 210, 212);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+  }

@@ -1,0 +1,46 @@
+
+.added{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .added>div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    background-color: rgb(187, 150, 150);
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+  .name{
+  
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+    color:rgb(92, 89, 89);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .selsi{
+    
+    text-align: left;
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+    padding-left: 40px;
+  }
+  .description{
+   
+    text-align: left;
+    padding-left: 40px;
+    color:rgb(92, 89, 89);
+  }
+  .img{
+    text-align: left;
+    padding-right: 30px;
+  }
+  .img>img{
+  
+    height: 110px;
+    width: 180px;
+  }
