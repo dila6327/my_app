@@ -3,7 +3,7 @@ import '../styles/form.css'
 const Form = ({inputVal,handleSubmit,handleChange}) => {
   return (
     <div className="form">
-    <form action="" onSubmit={(e) => handleSubmit(e)}>
+    <form action="" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Search for a city"
